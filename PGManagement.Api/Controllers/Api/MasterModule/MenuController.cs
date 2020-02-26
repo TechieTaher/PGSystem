@@ -5,15 +5,15 @@ using PGManagement.Models.Main;
 using RxWeb.Core.AspNetCore;
 using RxWeb.Core.Security.Authorization;
 
-namespace PGManagement.Api.Controllers.UserModule
+namespace PGManagement.Api.Controllers.MasterModule
 {
     [ApiController]
     [Route("api/[controller]")]
 	
-	public class BedController : BaseController<Bed,Bed,Bed>
+	public class MenuController : BaseController<Menu,Menu,Menu>
 
     {
-        public BedController(IUserUow uow):base(uow) {}
+        public MenuController(IMasterUow uow):base(uow) {}
 
     }
 }

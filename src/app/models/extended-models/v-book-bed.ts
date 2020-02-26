@@ -22,9 +22,4 @@ export class vBookBed extends vBookBedBase
 
 
 
-
-
-
-
-
 }

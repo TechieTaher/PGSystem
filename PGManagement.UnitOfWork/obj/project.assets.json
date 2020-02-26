@@ -6377,11 +6377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\taher\\PG-Management\\PGManagement.UnitOfWork\\PGManagement.UnitOfWork.csproj",
+      "projectUniqueName": "D:\\taher\\PGSystem\\PGManagement.UnitOfWork\\PGManagement.UnitOfWork.csproj",
       "projectName": "PGManagement.UnitOfWork",
-      "projectPath": "D:\\taher\\PG-Management\\PGManagement.UnitOfWork\\PGManagement.UnitOfWork.csproj",
+      "projectPath": "D:\\taher\\PGSystem\\PGManagement.UnitOfWork\\PGManagement.UnitOfWork.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "D:\\taher\\PG-Management\\PGManagement.UnitOfWork\\obj\\",
+      "outputPath": "D:\\taher\\PGSystem\\PGManagement.UnitOfWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6397,8 +6397,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\taher\\PG-Management\\PGManagement.BoundedContext\\PGManagement.BoundedContext.csproj": {
-              "projectPath": "D:\\taher\\PG-Management\\PGManagement.BoundedContext\\PGManagement.BoundedContext.csproj"
+            "D:\\taher\\PGSystem\\PGManagement.BoundedContext\\PGManagement.BoundedContext.csproj": {
+              "projectPath": "D:\\taher\\PGSystem\\PGManagement.BoundedContext\\PGManagement.BoundedContext.csproj"
             }
           }
         }
@@ -6426,7 +6426,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -26,9 +26,4 @@ rooms : RoomBase[];
 
 
 
-
-
-
-
-
 }

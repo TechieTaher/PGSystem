@@ -5,15 +5,15 @@ using PGManagement.Models.Main;
 using RxWeb.Core.AspNetCore;
 using RxWeb.Core.Security.Authorization;
 
-namespace PGManagement.Api.Controllers.UserModule
+namespace PGManagement.Api.Controllers.MasterModule
 {
     [ApiController]
     [Route("api/[controller]")]
 	
-	public class FlatController : BaseController<Flat,Flat,Flat>
+	public class DocumentsController : BaseController<Document,Document,Document>
 
     {
-        public FlatController(IUserUow uow):base(uow) {}
+        public DocumentsController(IMasterUow uow):base(uow) {}
 
     }
 }

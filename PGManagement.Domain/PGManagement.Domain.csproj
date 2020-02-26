@@ -1,11 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <Compile Remove="UserDomain\BookBedDomain.cs" />
-    <Compile Remove="UserDomain\vBookBedDomain.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PGManagement.BoundedContext\PGManagement.BoundedContext.csproj" />
     <ProjectReference Include="..\PGManagement.UnitOfWork\PGManagement.UnitOfWork.csproj" />
     <ProjectReference Include="..\PGManagement.Models\PGManagement.Models.csproj" />
@@ -13,7 +8,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="MasterDomain\" />
+    <Folder Include="Domain\" />
   </ItemGroup>
 
   <PropertyGroup>

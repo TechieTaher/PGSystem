@@ -32,7 +32,7 @@ export class BookBedBase {
 
 
 //#region createDate Prop
-        @prop()
+        @required()
         createDate : any;
 //#endregion createDate Prop
 
@@ -47,6 +47,8 @@ export class BookBedBase {
         @required()
         endDate : Date;
 //#endregion endDate Prop
+
+
 
 
 

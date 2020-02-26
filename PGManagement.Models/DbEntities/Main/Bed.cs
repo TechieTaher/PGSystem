@@ -28,6 +28,14 @@ namespace PGManagement.Models.Main
 
         public int RoomId { get; set; }
 
+		#region BedNumber Annotations
+
+        [Range(1,int.MaxValue)]
+        [Required]
+		#endregion BedNumber Annotations
+
+        public int BedNumber { get; set; }
+
 		#region BedStatus Annotations
 
         [Required]
@@ -51,6 +59,13 @@ namespace PGManagement.Models.Main
 
         public virtual Room Room { get; set; }
 
+		#region BookBed Annotations
+
+        [InverseProperty("Bed")]
+		#endregion BookBed Annotations
+
+        public virtual ICollection<BookBed> BookBed { get; set; }
+
 		#region Requesters Annotations
 
         [InverseProperty("Bed")]
@@ -61,6 +76,7 @@ namespace PGManagement.Models.Main
 
         public Bed()
         {
+			BookBed = new HashSet<BookBed>();
 			Requesters = new HashSet<Requester>();
         }
 	}

@@ -5,15 +5,15 @@ using PGManagement.Models.Main;
 using RxWeb.Core.AspNetCore;
 using RxWeb.Core.Security.Authorization;
 
-namespace PGManagement.Api.Controllers.UserModule
+namespace PGManagement.Api.Controllers.MasterModule
 {
     [ApiController]
     [Route("api/[controller]")]
 	
-	public class PaymentController : BaseController<Payment,Payment,Payment>
+	public class RequesterController : BaseController<Requester,Requester,Requester>
 
     {
-        public PaymentController(IUserUow uow):base(uow) {}
+        public RequesterController(IMasterUow uow):base(uow) {}
 
     }
 }
